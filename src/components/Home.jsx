@@ -135,7 +135,7 @@ const Home = () => {
             navigate("/Expire");
         }
         else {
-            let targetDate = new Date("Aug 22, 2025 18:00:00").getTime();
+            let targetDate = new Date("Aug 31, 2025 23:00:00").getTime();
 
             //update the countdown every second 
             let update = setInterval(() => {
